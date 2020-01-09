@@ -67,10 +67,10 @@ h1 {
 }
 
 .content {
-    min-height: 600px;
+    min-height: 585px;
     width: 100%;
     border-radius: 5px;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
 }
 
 .section {
@@ -80,27 +80,30 @@ h1 {
 
 .img-content {
     float: left;
+    margin-left: 25px;
 }
 
 .text-p-1 {
     width: 850px;
-    margin-left: 250px;
+    margin-left: 278px;
     text-align: justify;
-    margin-top: 0px;
+    margin-top: 8px;
 }
 
 .link-readmore {
     text-decoration: none;
-    margin-left: 80px;
+    margin-left: 62px;
     font-size: 11px;
-    border: 1px solid grey ;
-    padding: 3px;
+    border: 1px solid grey;
+    padding: 7px;
+    border-radius: 3px;
+    color: grey;
 }
 
 h2 {
     margin-bottom: 0px;
     margin-top: 0px;
-    margin-left: 250px;
+    margin-left: 62px;
 }
 
 .footer {

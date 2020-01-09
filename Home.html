@@ -2,7 +2,10 @@
 <html>
     <head>
         <title>Encounter</title>
-        <link rel="stylesheet" href="home.css">
+        <link rel="stylesheet" href="Style/home.css">
+        <link rel="stylesheet" href="Style/generic.css">
+        <link rel="stylesheet" href="Style/js-image-slider.css">
+        <script src="js/js-image-slider.js"></script>
     </head>
     <body>
         <hr class="top-line">
@@ -21,8 +24,16 @@
                     </ul>
                 </div>
             </div>
-            <div class="slider">
-                <img src="images/slider_1.png" alt="">
+            <div id="sliderwrapper">
+                <!--Start Slider-->
+                 <div class="container" id="sliderFrame">
+                    <div class="slider" id="slider">
+                        <img src="images/slider_1.png">
+                        <img src="images/slider_2.png">
+                        <img src="images/slider_3.png">
+                    </div>
+                 </div>
+                <!--End Slider-->
             </div>
             <h1>About Us</h1>
             <div class="content">
